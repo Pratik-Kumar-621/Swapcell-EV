@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/electrica_energy/static/js/main.fa9ac3a1.js",
+    "index.html": "/electrica_energy/index.html",
+    "main.fa9ac3a1.js.map": "/electrica_energy/static/js/main.fa9ac3a1.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.fa9ac3a1.js"
+  ]
+}
