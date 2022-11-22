@@ -1,0 +1,82 @@
+@import "../colors";
+
+.details {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  height: 37.5rem;
+  .contentLanding {
+    .titleLanding {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+      .headingLanding {
+        display: flex;
+        align-items: center;
+        font-size: 3rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $white;
+        img {
+          width: 8rem;
+          height: 7.5rem;
+        }
+      }
+      .subHeadingLanding {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: $white;
+        margin-top: 0.1rem;
+      }
+    }
+    .imageLanding {
+      height: 19rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 540px;
+        height: 15rem;
+        padding-bottom: 0.75rem;
+      }
+      color: $white;
+    }
+    .buttonLanding {
+      text-align: center;
+      margin-top: 1rem;
+      button {
+        height: 42px;
+        padding-left: 2.1rem;
+        padding-right: 2.1rem;
+        border-radius: 100px;
+        color: #304308;
+        font-weight: 400;
+        background: linear-gradient(180deg, #83ffad -21.43%, #9ea2ff 100%);
+        letter-spacing: 0.06em;
+      }
+    }
+  }
+  .imageLanding {
+    height: 37.5rem;
+    width: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .downButton {
+    grid-column: 1/-1;
+    text-align: center;
+    button {
+      width: 2.7rem;
+      height: 2.7rem;
+      border-radius: 50%;
+      color: $white;
+      font-size: 0.5rem;
+      background-color: $green;
+      margin-top: -6.5rem;
+    }
+  }
+}
