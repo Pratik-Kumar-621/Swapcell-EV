@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/electrica_energy/static/css/main.7cc1dea6.css",
-    "main.js": "/electrica_energy/static/js/main.921e569a.js",
+    "main.css": "/electrica_energy/static/css/main.483e3490.css",
+    "main.js": "/electrica_energy/static/js/main.5274a16d.js",
     "static/media/Landing.png": "/electrica_energy/static/media/Landing.3fdafc39fe2467ac1c1c.png",
+    "static/media/About.png": "/electrica_energy/static/media/About.bb281986a21d86bf9546.png",
     "static/media/Detail.png": "/electrica_energy/static/media/Detail.3c4189bef5573a928b56.png",
     "static/media/Logo.png": "/electrica_energy/static/media/Logo.9afc62babd74108399c9.png",
     "static/media/Heading.png": "/electrica_energy/static/media/Heading.8bd619f986471db44c1d.png",
     "index.html": "/electrica_energy/index.html",
-    "main.7cc1dea6.css.map": "/electrica_energy/static/css/main.7cc1dea6.css.map",
-    "main.921e569a.js.map": "/electrica_energy/static/js/main.921e569a.js.map"
+    "main.483e3490.css.map": "/electrica_energy/static/css/main.483e3490.css.map",
+    "main.5274a16d.js.map": "/electrica_energy/static/js/main.5274a16d.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cc1dea6.css",
-    "static/js/main.921e569a.js"
+    "static/css/main.483e3490.css",
+    "static/js/main.5274a16d.js"
   ]
 }
