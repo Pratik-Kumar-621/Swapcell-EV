@@ -1,0 +1,10 @@
+.featureContent {
+  margin-top: 4.5rem;
+  display: grid;
+  padding: 0 6rem;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  grid-column-gap: 2.1rem;
+  grid-row-gap: 5.6rem;
+  align-items: center;
+  justify-items: center;
+}

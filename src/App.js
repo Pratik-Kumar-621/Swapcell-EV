@@ -1,6 +1,6 @@
 import React from "react";
 import About from "./Section/About/About";
-// import Features from "./Section/Features/Features";
+import Features from "./Section/Features/Features";
 import Landing from "./Section/Landing/Landing";
 
 import "./Styles/app.scss";
@@ -10,7 +10,7 @@ const App = () => {
     <div>
       <Landing />
       <About />
-      {/* <Features /> */}
+      <Features />
     </div>
   );
 };
