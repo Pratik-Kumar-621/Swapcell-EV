@@ -7,7 +7,7 @@ import KeyboardArrowDownRoundedIcon from "@mui/icons-material/KeyboardArrowDownR
 
 const Details = () => {
   return (
-    <div className="details">
+    <div className="landingDetails">
       <div className="contentLanding">
         <div className="titleLanding">
           <div className="headingLanding">

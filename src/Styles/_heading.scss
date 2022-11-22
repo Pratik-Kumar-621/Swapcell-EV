@@ -1,0 +1,21 @@
+@import "./colors";
+
+.mainHeading {
+  margin: 2.7rem 0;
+  display: grid;
+  grid-template-columns: 1.6fr auto 1.6fr;
+  padding: 0 6rem;
+  .dotted {
+    border-bottom: 1px solid $green;
+    border-bottom-style: dashed;
+  }
+  span {
+    text-align: center;
+    border-bottom: 0.6rem solid $green;
+    padding: 0 1.5rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: $black;
+    margin: 0 1rem;
+  }
+}

@@ -1,0 +1,43 @@
+@import "../colors";
+
+.aboutDetails {
+  padding: 1.2rem 6rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  .aboutImage {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 30rem;
+      height: 25rem;
+    }
+  }
+  .aboutContent {
+    .contentA {
+      font-size: 1.2rem;
+      font-weight: 400;
+      letter-spacing: 0.06em;
+      color: $text;
+    }
+    .contentB {
+      margin: 1.8rem 0;
+      .contentHeadingAbout {
+        display: flex;
+        align-items: center;
+        span {
+          margin-left: 1.2rem;
+          color: $textgreen;
+          font-size: 1.2rem;
+          font-weight: 700;
+          letter-spacing: 0.06em;
+        }
+      }
+      .contentAboutDesc {
+        font-size: 1.2rem;
+        font-weight: 400;
+        letter-spacing: 0.06em;
+        color: $text;
+      }
+    }
+  }
+}
