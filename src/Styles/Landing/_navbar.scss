@@ -1,0 +1,81 @@
+@import "../colors";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 6rem;
+  .logo {
+    width: 5rem;
+    height: 6rem;
+    margin-bottom: -1.5rem;
+    img {
+      width: 5rem;
+      height: 6rem;
+    }
+  }
+  .navItems {
+    display: flex;
+    align-items: flex-end;
+    height: 4.5rem;
+    border-bottom: 1px solid $white;
+    .navLinks {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      .navLink {
+        height: 100%;
+        padding: 0 2.1rem;
+        font-size: 0.8rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: $greytext;
+        border-radius: 0px !important;
+      }
+      .active {
+        color: white;
+        border-bottom: 0.2rem solid $white;
+      }
+    }
+    .navIcons {
+      display: flex;
+      height: 100%;
+      padding: 0 2rem;
+      align-items: center;
+      .navIcon {
+        display: flex;
+      }
+      .search {
+        position: relative;
+        input {
+          background-color: $input;
+          border: none;
+          color: $white;
+          font-size: 0.8rem;
+          font-weight: 500;
+          text-transform: uppercase;
+          padding: 0 0.5rem 0 1.2rem;
+          border-radius: 100px;
+          width: 100%;
+          transition: all 0.3s ease;
+          height: 40px;
+          &:focus {
+            outline: none;
+          }
+        }
+        .button {
+          position: absolute;
+          height: 40px;
+          border-radius: 100px;
+          right: 0;
+          color: white;
+        }
+      }
+      .profile {
+        padding-left: 1.6rem;
+        .button {
+          color: $white;
+        }
+      }
+    }
+  }
+}

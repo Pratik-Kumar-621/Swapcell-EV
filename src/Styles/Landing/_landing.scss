@@ -1,0 +1,8 @@
+@import "../colors";
+@import "./navbar";
+@import "./details";
+
+.landing {
+  background-color: $black;
+  height: 42rem;
+}
