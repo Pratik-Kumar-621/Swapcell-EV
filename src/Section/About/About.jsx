@@ -1,7 +1,14 @@
 import React from "react";
+import Heading from "../Heading";
+import Details from "./Details";
 
 const About = () => {
-  return <div>About</div>;
+  return (
+    <div>
+      <Heading heading="About" />
+      <Details />
+    </div>
+  );
 };
 
 export default About;
