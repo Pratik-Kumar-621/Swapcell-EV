@@ -1,0 +1,23 @@
+@import "../colors";
+
+.swapping {
+  margin-top: -5rem;
+  margin-bottom: 2.5rem;
+  .swapContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .textSwap {
+      padding: 1rem 10rem 1rem;
+      border-bottom: 1px dashed $input;
+    }
+    .textSwap,
+    .text2 {
+      margin-top: 1rem;
+      color: #8a8a8a;
+      letter-spacing: 0.04em;
+      font-weight: 500;
+      font-size: 1.25rem;
+    }
+  }
+}

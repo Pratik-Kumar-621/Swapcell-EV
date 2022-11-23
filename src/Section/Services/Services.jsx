@@ -1,5 +1,5 @@
 import React from "react";
-import Heading2 from "../Heading2";
+import { Heading2 } from "../Heading2";
 import Content from "./Content";
 import Arrow from "../../Media/Services/arrow.png";
 

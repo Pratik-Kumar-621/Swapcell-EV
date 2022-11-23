@@ -3,6 +3,7 @@ import About from "./Section/About/About";
 import Features from "./Section/Features/Features";
 import Landing from "./Section/Landing/Landing";
 import Services from "./Section/Services/Services";
+import Swapping from "./Section/Swapping/Swapping";
 
 import "./Styles/app.scss";
 
@@ -13,6 +14,7 @@ const App = () => {
       <About />
       <Features />
       <Services />
+      <Swapping />
     </div>
   );
 };
