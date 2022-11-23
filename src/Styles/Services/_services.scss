@@ -1,0 +1,39 @@
+@import "../colors";
+@import "./card";
+@import "./content";
+
+.services {
+  margin-top: -5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .heading2 {
+    position: absolute;
+    width: 100%;
+  }
+  .arrow1,
+  .arrow2,
+  .arrow3 {
+    position: absolute;
+    img {
+      width: 5rem;
+      height: 1rem;
+    }
+  }
+  .arrow1 {
+    transform: rotate(-45deg);
+    margin-top: -12rem;
+    margin-left: 20rem;
+  }
+  .arrow2 {
+    transform: rotate(225deg);
+    margin-top: -12rem;
+    margin-right: 20rem;
+  }
+  .arrow3 {
+    transform: rotate(90deg);
+    margin-top: 12rem;
+  }
+}
