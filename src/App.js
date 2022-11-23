@@ -1,21 +1,33 @@
 import React from "react";
-import About from "./Section/About/About";
-import Features from "./Section/Features/Features";
-import Landing from "./Section/Landing/Landing";
-import Services from "./Section/Services/Services";
-import Swapping from "./Section/Swapping/Swapping";
-
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Services from "./Pages/Services";
+import Technology from "./Pages/Technology";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import "./Styles/app.scss";
 
 const App = () => {
   return (
-    <div>
-      <Landing />
-      <About />
-      <Features />
-      <Services />
-      <Swapping />
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/home" exact>
+          <Home />
+        </Route>
+        <Route path="/about" exact>
+          <About />
+        </Route>
+        <Route path="/contact" exact>
+          <Contact />
+        </Route>
+        <Route path="/services" exact>
+          <Services />
+        </Route>
+        <Route path="/technology" exact>
+          <Technology />
+        </Route>
+      </Switch>
+    </Router>
   );
 };
 
