@@ -4,6 +4,7 @@ import Heading from "../../Media/Landing/Heading.png";
 import Detail from "../../Media/Landing/Detail.png";
 import { Button, IconButton } from "@mui/material";
 import KeyboardArrowDownRoundedIcon from "@mui/icons-material/KeyboardArrowDownRounded";
+import { Link } from "react-scroll";
 
 const Details = () => {
   return (
@@ -27,11 +28,11 @@ const Details = () => {
       <div className="imageLanding">
         <img src={Landing} alt="Landing" />
       </div>
-      <div className="downButton">
+      <Link to="footer" smooth={true} duration={500} className="downButton">
         <IconButton>
           <KeyboardArrowDownRoundedIcon />
         </IconButton>
-      </div>
+      </Link>
     </div>
   );
 };

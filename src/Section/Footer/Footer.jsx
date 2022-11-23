@@ -9,7 +9,7 @@ import Button from "@mui/material/Button";
 const Footer = () => {
   return (
     <footer>
-      <div className="logo-foot">
+      <div id="footer" className="logo-foot">
         <img src={Heading} alt="Heading" />
         <div className="foot-name">Electrica Energy</div>
         <div className="foot-desc">
