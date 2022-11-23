@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import Logo from "../../Media/Landing/Logo.png";
 import { Button, IconButton } from "@mui/material";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
-
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   return (
@@ -12,31 +11,53 @@ const NavBar = () => {
       <div className="logo">
         <img src={Logo} alt="Logo" />
       </div>
-      <div className="navItems navDash">
+      <div className="navItems">
         <div className="navLinks">
-          <NavLink className="navLink" activeClassName="active" to="/home">
-            <Button>Home</Button>
-          </NavLink>
-
-          <NavLink
-            className="navLink"
-            activeClassName="active"
-            to="/technology"
-          >
-            <Button>TECHNOLOGY</Button>
-          </NavLink>
-
-          <NavLink className="navLink" activeClassName="active" to="/services">
-            <Button>OUR SERVICES</Button>
-          </NavLink>
-
-          <NavLink className="navLink" activeClassName="active" to="/about">
-            <Button>About</Button>
-          </NavLink>
-
-          <NavLink className="navLink" activeClassName="active" to="/contact">
-            <Button>Contact us</Button>
-          </NavLink>
+          <Button className="navLink active">
+            <Link
+              className="link-nav-scroll"
+              to="home"
+              smooth={true}
+              duration={500}
+              activeClass="active1"
+            >
+              Home
+            </Link>
+          </Button>
+          <Button className="navLink">
+            <Link
+              className="link-nav-scroll"
+              to="technology-sec"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              TECHNOLOGY
+            </Link>
+          </Button>
+          <Button className="navLink">
+            <Link
+              className="link-nav-scroll"
+              to="services-sec"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              OUR SERVICES
+            </Link>
+          </Button>
+          <Button className="navLink">
+            <Link
+              className="link-nav-scroll"
+              to="about-sec"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              About
+            </Link>
+          </Button>
+          <Button className="navLink contact">Contact us</Button>
         </div>
         <div className="navIcons">
           <div className="navIcon search">

@@ -5,7 +5,7 @@ import Arrow from "../../Media/Services/arrow.png";
 
 const Services = () => {
   return (
-    <div className="services">
+    <div id="services-sec" className="services">
       <Heading2 heading="Services and Products" />
       <div className="arrow1">
         <img src={Arrow} alt="" />

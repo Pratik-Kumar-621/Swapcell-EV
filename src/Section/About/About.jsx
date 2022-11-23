@@ -4,7 +4,7 @@ import Details from "./Details";
 
 const About = () => {
   return (
-    <div>
+    <div id="about-sec">
       <Heading heading="About" />
       <Details />
     </div>

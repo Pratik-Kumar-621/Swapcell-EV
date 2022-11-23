@@ -4,7 +4,6 @@
   display: flex;
   justify-content: space-between;
   padding: 0 0 0 6rem;
-  background-color: $black;
   .logo {
     width: 5rem;
     height: 6rem;
@@ -18,33 +17,33 @@
     display: flex;
     align-items: flex-end;
     height: 4.5rem;
+    border-bottom: 1px solid $white;
     .navLinks {
       display: flex;
       height: 100%;
       align-items: center;
       .navLink {
         height: 100%;
-
+        padding: 0 !important;
         font-size: 0.8rem;
         font-weight: 500;
         text-transform: uppercase;
-        color: $greytext !important;
-        text-decoration: none;
+        color: $greytext;
         border-radius: 0px !important;
-        button {
-          padding: 0 2.1rem;
-          border-radius: 0px !important;
-          width: 100%;
+        .link-nav-scroll {
+          display: flex;
+          align-items: center;
           height: 100%;
-          color: $greytext;
+          width: 100%;
+          padding: 0 2.1rem;
         }
       }
+      .contact {
+        padding: 0 2.1rem !important;
+      }
       .active {
-        color: $white;
+        color: white;
         border-bottom: 0.2rem solid $white;
-        button {
-          color: $white;
-        }
       }
     }
     .navIcons {
@@ -88,8 +87,5 @@
         }
       }
     }
-  }
-  .navDash {
-    border-bottom: 1px solid $white;
   }
 }

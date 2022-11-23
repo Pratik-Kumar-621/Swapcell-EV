@@ -4,7 +4,7 @@ import NavBar from "./NavBar";
 
 const Landing = () => {
   return (
-    <div className="landing">
+    <div id="home" className="landing">
       <NavBar />
       <Details />
     </div>
