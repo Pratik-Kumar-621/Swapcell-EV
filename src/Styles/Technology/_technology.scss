@@ -1,0 +1,16 @@
+.technology-main {
+  .details-tech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.6rem 7rem;
+  }
+  .details-tech-image {
+    margin-bottom: 2.7rem;
+  }
+  .details-tech-content {
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.8rem;
+  }
+}

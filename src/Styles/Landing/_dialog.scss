@@ -1,0 +1,40 @@
+@import "../colors";
+
+.login {
+  width: 24rem;
+  background-color: $white;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  padding: 2rem 2.5rem 3rem 2.5rem;
+  .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    .input-form {
+      margin-bottom: 0.7rem;
+      transform: scale(1, 0.8);
+      input {
+        transform: scale(1, 1.2);
+      }
+    }
+    .buttons-dialog {
+      display: flex;
+      width: 100%;
+      button {
+        width: 100%;
+        margin-top: 0.7rem;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        svg {
+          width: 1.2rem;
+        }
+      }
+    }
+  }
+}

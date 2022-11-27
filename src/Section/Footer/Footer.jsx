@@ -12,15 +12,15 @@ const Footer = () => {
       <div id="footer" className="logo-foot">
         <img src={Heading} alt="Heading" />
         <div className="foot-name">Electrica Energy</div>
-        <div className="foot-desc">
+        {/* <div className="foot-desc">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </div>
+        </div> */}
       </div>
       <div className="address-foot">
         <div className="foot-title">Address</div>
         <div className="foot-desc">
           <LocationOnIcon />
-          &nbsp; 123, ABC Street, XYZ City, India - 123456
+          &nbsp; Prayasala Lab, South Campus,IIT Mandi, Himachal Pradesh -175005
         </div>
       </div>
       <div className="explore-foot">

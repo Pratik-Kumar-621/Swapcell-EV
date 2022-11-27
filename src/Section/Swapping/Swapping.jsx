@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading2, Heading3 } from "../Heading2";
+import { Heading3 } from "../Heading2";
 import Content from "./Content";
 
 const Swapping = () => {

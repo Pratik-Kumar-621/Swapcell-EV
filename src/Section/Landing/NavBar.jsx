@@ -1,11 +1,30 @@
 import React from "react";
 import Logo from "../../Media/Landing/Logo.png";
-import { Button, IconButton } from "@mui/material";
-import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
+import { Button, IconButton, Dialog, Slide } from "@mui/material";
 import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
 import { Link } from "react-scroll";
+import { TransitionProps } from "@mui/material/transitions";
+import DialogContact from "./Dialog";
+
+const Transition = React.forwardRef(function Transition(
+  props: TransitionProps & {
+    children: React.ReactElement<any, any>,
+  },
+  ref: React.Ref<unknown>
+) {
+  return <Slide direction="up" ref={ref} {...props} />;
+});
 
 const NavBar = () => {
+  const [open, setOpen] = React.useState(false);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
   return (
     <div className="navbar">
       <div className="logo">
@@ -22,6 +41,17 @@ const NavBar = () => {
               activeClass="active1"
             >
               Home
+            </Link>
+          </Button>
+          <Button className="navLink">
+            <Link
+              className="link-nav-scroll"
+              to="about-sec"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              About
             </Link>
           </Button>
           <Button className="navLink">
@@ -46,29 +76,23 @@ const NavBar = () => {
               OUR SERVICES
             </Link>
           </Button>
-          <Button className="navLink">
-            <Link
-              className="link-nav-scroll"
-              to="about-sec"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
-              About
-            </Link>
+          <Button className="navLink contact" onClick={handleClickOpen}>
+            Contact us
           </Button>
-          <Button className="navLink contact">Contact us</Button>
+          <Dialog
+            open={open}
+            TransitionComponent={Transition}
+            keepMounted
+            aria-describedby="alert-dialog-slide-description"
+          >
+            <DialogContact HandleClose={handleClose} />
+          </Dialog>
         </div>
         <div className="navIcons">
           <div className="navIcon search">
             <input type="text" />
             <IconButton className="button" variant="text">
               <SearchRoundedIcon />
-            </IconButton>
-          </div>
-          <div className="navIcon profile">
-            <IconButton className="button" variant="text">
-              <PersonOutlineIcon />
             </IconButton>
           </div>
         </div>

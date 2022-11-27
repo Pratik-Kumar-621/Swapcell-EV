@@ -1,0 +1,56 @@
+.partner {
+  padding-top: 9rem;
+  margin-top: -4rem;
+  padding-bottom: 5rem;
+  margin-bottom: -2rem;
+  background: linear-gradient(
+    180deg,
+    rgba(208, 246, 249, 0) 0%,
+    rgba(208, 246, 249, 0.1) 9.9%,
+    rgba(208, 246, 249, 0.2) 15.1%,
+    rgba(208, 246, 249, 0.3) 22.4%,
+    rgba(208, 246, 249, 0.4) 29.69%,
+    rgba(208, 246, 249, 0.8) 48.96%,
+    rgba(208, 246, 249, 0.7) 67.71%,
+    rgba(208, 246, 249, 0.6) 76.04%,
+    rgba(208, 246, 249, 0.4) 84.9%,
+    rgba(208, 246, 249, 0.2) 92.71%,
+    rgba(208, 246, 249, 0.1) 100%
+  );
+  .heading3 {
+    span {
+      width: 55% !important;
+    }
+  }
+  .details-partner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.25rem 0 0rem 0;
+    .details-partnerImg {
+      justify-self: center;
+      align-self: center;
+      padding: 3.2rem 0;
+      img {
+        width: 30rem;
+        height: 24rem;
+      }
+    }
+    .details-partnerContent {
+      align-self: center;
+      padding: 0 0 0 3.2rem;
+      .contentDetail {
+        display: flex;
+        align-items: center;
+        font-size: 1.6rem;
+        padding: 0.5rem 0;
+        img {
+          width: 4rem;
+          height: 4rem;
+        }
+        span {
+          margin-bottom: -1rem;
+        }
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@ import React from "react";
 import Landing from "../../Media/Landing/Landing.png";
 import Heading from "../../Media/Landing/Heading.png";
 import Detail from "../../Media/Landing/Detail.png";
-import { Button, IconButton } from "@mui/material";
+import { IconButton } from "@mui/material";
 import KeyboardArrowDownRoundedIcon from "@mui/icons-material/KeyboardArrowDownRounded";
 import { Link } from "react-scroll";
 
@@ -21,14 +21,14 @@ const Details = () => {
           <img src={Detail} alt="Detail" />
           100 km of ride in just 1 min of swap
         </div>
-        <div className="buttonLanding">
+        {/* <div className="buttonLanding">
           <Button variant="contained">Know More</Button>
-        </div>
+        </div> */}
       </div>
       <div className="imageLanding">
         <img src={Landing} alt="Landing" />
       </div>
-      <Link to="footer" smooth={true} duration={500} className="downButton">
+      <Link to="about-sec" smooth={true} duration={500} className="downButton">
         <IconButton>
           <KeyboardArrowDownRoundedIcon />
         </IconButton>
