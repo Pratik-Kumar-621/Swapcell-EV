@@ -4,7 +4,7 @@ import Details from "./Details";
 
 const Technology = () => {
   return (
-    <div className="technology-main">
+    <div id="tech-sec" className="technology-main">
       <Heading3 heading="Technology" />
       <Details />
     </div>

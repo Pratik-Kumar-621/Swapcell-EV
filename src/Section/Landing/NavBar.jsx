@@ -57,23 +57,23 @@ const NavBar = () => {
           <Button className="navLink">
             <Link
               className="link-nav-scroll"
-              to="technology-sec"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
-              TECHNOLOGY
-            </Link>
-          </Button>
-          <Button className="navLink">
-            <Link
-              className="link-nav-scroll"
               to="services-sec"
               spy={true}
               smooth={true}
               duration={500}
             >
               OUR SERVICES
+            </Link>
+          </Button>
+          <Button className="navLink">
+            <Link
+              className="link-nav-scroll"
+              to="tech-sec"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              TECHNOLOGY
             </Link>
           </Button>
           <Button className="navLink contact" onClick={handleClickOpen}>
@@ -88,14 +88,14 @@ const NavBar = () => {
             <DialogContact HandleClose={handleClose} />
           </Dialog>
         </div>
-        <div className="navIcons">
+        {/* <div className="navIcons">
           <div className="navIcon search">
             <input type="text" />
             <IconButton className="button" variant="text">
               <SearchRoundedIcon />
             </IconButton>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
