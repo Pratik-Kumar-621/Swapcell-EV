@@ -54,3 +54,38 @@
     }
   }
 }
+
+@media all and (max-width: 1100px) {
+  .partner {
+    .details-partner {
+      grid-template-columns: 1fr;
+      .details-partnerImg {
+        justify-self: center;
+        align-self: center;
+        padding: 3.2rem 0;
+        img {
+          width: 30rem;
+          height: 24rem;
+        }
+      }
+      .details-partnerContent {
+        align-self: center;
+        justify-self: center;
+        padding: 0 0 0 3.2rem;
+        .contentDetail {
+          display: flex;
+          align-items: center;
+          font-size: 1.6rem;
+          padding: 0.5rem 0;
+          img {
+            width: 4rem;
+            height: 4rem;
+          }
+          span {
+            margin-bottom: -1rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -13,6 +13,7 @@
     }
   }
   .aboutContent {
+    text-align: justify;
     .contentA {
       font-size: 1.2rem;
       font-weight: 400;
@@ -39,5 +40,14 @@
         color: $text;
       }
     }
+  }
+}
+@media all and (max-width: 1100px) {
+  .aboutDetails {
+    padding: 1.2rem 3.5rem 0;
+    grid-template-columns: 1fr;
+  }
+  .aboutContent {
+    margin-top: 1.75rem;
   }
 }

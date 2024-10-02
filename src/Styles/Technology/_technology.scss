@@ -7,10 +7,22 @@
   }
   .details-tech-image {
     margin-bottom: 2.7rem;
+    transform: scale(1);
+    transition: all 0.2s linear;
   }
   .details-tech-content {
     font-size: 1.25rem;
-    text-align: center;
+    text-align: justify;
     line-height: 1.8rem;
+  }
+}
+@media all and (max-width: 800px) {
+  .technology-main {
+    .details-tech {
+      padding: 2.4rem 4.5rem;
+    }
+    .details-tech-image {
+      transform: scale(0.85);
+    }
   }
 }
