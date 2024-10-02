@@ -13,13 +13,13 @@ const Details = () => {
         <div className="contentA">
           A predominant hurdle for EVs in India or globally anywhere is charging
           or the shortage of charging stations, thereby making them impractical
-          for lengthy distance drives. <br /> Electica Energy stands here to
-          provide convenience in mobility of the two and three wheelers through
-          our quick and effortless Battery Swapping platforms.
+          for lengthy distance drives. <br /> Swapcell EV stands here to provide
+          convenience in mobility of the two and three wheelers through our
+          quick and effortless Battery Swapping platforms.
           <br /> Imagine if your battery is suddenly out of charge. Would you
           wait for hours for it to re-charge?
-          <br /> No! Here comes Electica Enerygy to the rescue. Just swap the
-          battery at our smart swapping station and continue your journey.
+          <br /> No! Here comes Swapcell EV to the rescue. Just swap the battery
+          at our smart swapping station and continue your journey.
           <br /> Our technology of move-and-charge and wireless power drive will
           help alleviate the overdependence on batteries.
         </div>

@@ -13,7 +13,7 @@ const Details = () => {
         <div className="titleLanding">
           <div className="headingLanding">
             <img src={Heading} alt="Heading" />
-            <span>Electrica Energy</span>
+            <span>Swapcell EV</span>
           </div>
           <div className="subHeadingLanding">Don’t change, Just swap!</div>
         </div>
@@ -21,9 +21,6 @@ const Details = () => {
           <img src={Detail} alt="Detail" />
           100 km of ride in just 1 min of swap
         </div>
-        {/* <div className="buttonLanding">
-          <Button variant="contained">Know More</Button>
-        </div> */}
       </div>
       <div className="imageLanding">
         <img src={Landing} alt="Landing" />

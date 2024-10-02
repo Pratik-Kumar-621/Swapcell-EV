@@ -8,12 +8,12 @@ const Details = () => {
       <div className="mobilePlatDesc">
         <div className="mobilePlatDesc1">
           Around the world today, mobile is a dominant force with its global
-          growth and pervasiveness. So, Electica Energy has come up with a
+          growth and pervasiveness. So, Swapcell EV has come up with a
           mobile-based platform for handy user experience.
           <br />
-          <br /> With our user-friendly Mobile Application, Electica Energy
-          yearns to enhance our customer's and partner's experience. We cherish
-          our customers and partners by providing better services.
+          <br /> With our user-friendly Mobile Application, Swapcell EV yearns
+          to enhance our customer's and partner's experience. We cherish our
+          customers and partners by providing better services.
         </div>
         <div className="mobilePlatDesc2">
           <span>Now Available on PlayStore!</span>

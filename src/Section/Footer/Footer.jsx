@@ -11,7 +11,7 @@ const Footer = () => {
     <footer>
       <div id="footer" className="logo-foot">
         <img src={Heading} alt="Heading" />
-        <div className="foot-name">Electrica Energy</div>
+        <div className="foot-name">Swapcell EV</div>
         {/* <div className="foot-desc">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </div> */}
@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="foot-title">Address</div>
         <div className="foot-desc">
           <LocationOnIcon />
-          &nbsp; Prayasala Lab, South Campus,IIT Mandi, Himachal Pradesh -175005
+          &nbsp; Chennai, Tamil Nadu, India. 603103
         </div>
       </div>
       <div className="explore-foot">
