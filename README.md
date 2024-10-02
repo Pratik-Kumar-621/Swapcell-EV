@@ -1,2 +1,2 @@
 # Swapcell EV
-https://electrica-energy.vercel.app/
+https://swapcell-ev.vercel.app/
