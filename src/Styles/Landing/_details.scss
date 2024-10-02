@@ -66,3 +66,16 @@
     }
   }
 }
+
+@media all and (max-width: 1000px) {
+  .landingDetails {
+    height: 31.5rem;
+    grid-template-columns: 1fr;
+    .imageLanding {
+      display: none;
+    }
+    .downButton {
+      display: none;
+    }
+  }
+}
