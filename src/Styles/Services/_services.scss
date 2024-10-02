@@ -37,3 +37,9 @@
     margin-top: 12rem;
   }
 }
+
+@media all and (max-width: 1150px) {
+  .services {
+    display: none;
+  }
+}

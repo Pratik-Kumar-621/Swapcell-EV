@@ -4,7 +4,7 @@
   position: relative;
   width: 32rem;
   height: 12rem;
-  perspective: 1000px;
+  // perspective: 1000px;
   border-radius: 50%;
   margin: 10rem 5rem;
   .flipCircle-card-inner {
@@ -90,5 +90,11 @@
         color: $white;
       }
     }
+  }
+}
+
+@media all and (max-width: 1350px) {
+  .flipCircle-card {
+    margin: 10rem 2rem;
   }
 }
