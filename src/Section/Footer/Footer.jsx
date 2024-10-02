@@ -16,25 +16,27 @@ const Footer = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </div> */}
       </div>
-      <div className="address-foot">
-        <div className="foot-title">Address</div>
-        <div className="foot-desc">
-          <LocationOnIcon />
-          &nbsp; Chennai, Tamil Nadu, India. 603103
+      <div className="footer-details">
+        <div className="address-foot">
+          <div className="foot-title">Address</div>
+          <div className="foot-desc">
+            <LocationOnIcon />
+            &nbsp; Chennai, Tamil Nadu, India. 603103
+          </div>
         </div>
-      </div>
-      <div className="explore-foot">
-        <div className="foot-title">Explore</div>
-        <div className="links-foot">
-          <Button>
-            <LinkedInIcon />
-          </Button>
-          <Button>
-            <TwitterIcon />
-          </Button>
-          <Button>
-            <EmailIcon />
-          </Button>
+        <div className="explore-foot">
+          <div className="foot-title">Explore</div>
+          <div className="links-foot">
+            <Button>
+              <LinkedInIcon />
+            </Button>
+            <Button>
+              <TwitterIcon />
+            </Button>
+            <Button>
+              <EmailIcon />
+            </Button>
+          </div>
         </div>
       </div>
     </footer>
